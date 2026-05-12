@@ -15,7 +15,8 @@ const server = http.createServer(app);
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://collab-board-brown.vercel.app'
+    'https://collab-board-brown.vercel.app',
+    'https://collab-board-ayuldmk5j-chilakapati-niroop-s-projects.vercel.app'
   ],
   credentials: true
 }));
